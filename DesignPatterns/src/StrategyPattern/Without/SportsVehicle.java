@@ -1,4 +1,4 @@
-package StartergyPattern.Without;
+package StrategyPattern.Without;
 
 public class SportsVehicle extends Vehicle {
 

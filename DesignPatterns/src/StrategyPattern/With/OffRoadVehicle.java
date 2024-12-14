@@ -1,4 +1,4 @@
-package StartergyPattern.With;
+package StrategyPattern.With;
 
 public class OffRoadVehicle {
 }
