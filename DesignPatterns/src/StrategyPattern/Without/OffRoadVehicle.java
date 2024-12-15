@@ -1,4 +1,4 @@
-package StartergyPattern.Without;
+package StrategyPattern.Without;
 
 public class OffRoadVehicle extends Vehicle {
     @Override
