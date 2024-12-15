@@ -1,4 +1,11 @@
 package StrategyPattern.With;
 
-public class OffRoadVehicle {
+import StrategyPattern.With.Stratergy.SportsDriveStratergy;
+
+public class OffRoadVehicle extends Vehicle{
+
+    OffRoadVehicle()
+    {
+        super(new SportsDriveStratergy());
+    }
 }

@@ -1,4 +1,11 @@
 package StrategyPattern.With;
 
-public class GoodsVehicle {
+import StrategyPattern.With.Stratergy.NormalDriveStratergy;
+
+public class GoodsVehicle extends Vehicle {
+
+    GoodsVehicle()
+    {
+        super(new NormalDriveStratergy());
+    }
 }
